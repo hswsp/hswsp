@@ -23,6 +23,8 @@ Welcome to my GitHub profile!
 - [**raft**](https://github.com/hswsp/raft) - Raft library for maintaining a replicated state machine
 - [**ratis**](https://github.com/hswsp/ratis) - Open source Java implementation for Raft consensus protocol
 - [**Intro-Distributed-System**](https://github.com/hswsp/Intro-Distributed-System) - [MIT 6.5840: Distributed Systems](http://nil.csail.mit.edu/6.5840/2023/schedule.html)
+- [**MIT-6.824**](https://github.com/hswsp/MIT-6.824) 🔒 *private* - MIT 6.824: Distributed Systems
+- [**CMU-15445**](https://github.com/hswsp/CMU-15445) 🔒 *private* - CMU 15-445: Database Systems
 - [**mini-lsm**](https://github.com/hswsp/mini-lsm) - A tutorial of building an LSM-Tree storage engine in a week
 - [**rustfs**](https://github.com/hswsp/rustfs) - 🚀2.3x faster than MinIO for 4KB object payloads. Open-source, S3-compatible high-performance object storage
 - [**tidb**](https://github.com/hswsp/tidb) - TiDB - the open-source, cloud-native, distributed SQL database
