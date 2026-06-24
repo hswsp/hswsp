@@ -26,6 +26,7 @@ Welcome to my GitHub profile!
 - [**mini-lsm**](https://github.com/hswsp/mini-lsm) - A tutorial of building an LSM-Tree storage engine in a week
 - [**rustfs**](https://github.com/hswsp/rustfs) - 🚀2.3x faster than MinIO for 4KB object payloads. Open-source, S3-compatible high-performance object storage
 - [**tidb**](https://github.com/hswsp/tidb) - TiDB - the open-source, cloud-native, distributed SQL database
+- [**lance**](https://github.com/hswsp/lance) - Modern columnar data format for ML and LLMs implemented in Rust. Convert from Parquet in 2 lines of code for 100x faster random access, a vector index, data versioning, and more.
 - [**lancedb**](https://github.com/hswsp/lancedb) - Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less.
 - [**DataBase_Project**](https://github.com/hswsp/DataBase_Project) - Database course project
 - [**SQL-Learn**](https://github.com/hswsp/SQL-Learn)
@@ -42,6 +43,7 @@ Welcome to my GitHub profile!
 ###  🔄 AI Related
 
 - [**open-webui**](https://github.com/hswsp/open-webui) - Deploy open-webui with Volcano Engine
+- [**AI-Trainer-practices-2026**](https://github.com/hswsp/AI-Trainer-practices-2026) - AI Trainer practices 2026
 - [andrej-karpathy-skills](https://github.com/hswsp/andrej-karpathy-skills) - A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
 
 - [**awesome-agent-skills**](https://github.com/hswsp/awesome-agent-skills) - Agent Skills 终极指南：快速入门、推荐技能
