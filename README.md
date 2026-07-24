@@ -24,8 +24,8 @@ Welcome to my GitHub profile!
 - [**raft**](https://github.com/hswsp/raft) - Raft library for maintaining a replicated state machine
 - [**ratis**](https://github.com/hswsp/ratis) - Open source Java implementation for Raft consensus protocol.
 - [**Intro-Distributed-System**](https://github.com/hswsp/Intro-Distributed-System)
-- [**MIT-6.824**](https://github.com/hswsp/MIT-6.824)
-- [**CMU-15445**](https://github.com/hswsp/CMU-15445)
+- [**MIT-6.824**](https://github.com/hswsp/MIT-6.824) 🔒 *private* - self-learning for MIT 6.824 Distributed Systems
+- [**CMU-15445**](https://github.com/hswsp/CMU-15445) 🔒 *private* - BusTub is a relational database management system built at Carnegie Mellon University for the Introduction to Database Systems (15-445/645) course. This system was developed for educational purposes and should not be used in production environments.
 - [**mini-lsm**](https://github.com/hswsp/mini-lsm) - A tutorial of building an LSM-Tree storage engine in a week.
 - [**rustfs**](https://github.com/hswsp/rustfs) - 🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.
 - [**tidb**](https://github.com/hswsp/tidb) - TiDB - the open-source, cloud-native, distributed SQL database designed for modern applications.
@@ -48,7 +48,7 @@ Welcome to my GitHub profile!
 - [**AI-Trainer-practices-2026**](https://github.com/hswsp/AI-Trainer-practices-2026) - 人工智能训练师考试三级
 - [**andrej-karpathy-skills**](https://github.com/hswsp/andrej-karpathy-skills) - A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
 - [**awesome-agent-skills**](https://github.com/hswsp/awesome-agent-skills) - Agent Skills 终极指南：快速入门、推荐技能、最新资讯与实战案例 ｜The Definitive Guide to Agent Skills: Quick Start, Recommended Skills, Latest News, and Practical Case Studies
-- [**claude-code-source-code**](https://github.com/hswsp/claude-code-source-code)
+- [**claude-code-source-code**](https://github.com/hswsp/claude-code-source-code) 🔒 *private*
 - [**everything-claude-code**](https://github.com/hswsp/everything-claude-code) - Complete Claude Code configuration collection - agents, skills, hooks, commands, rules, MCPs. Battle-tested configs from an Anthropic hackathon winner.
 - [**mistral-vibe**](https://github.com/hswsp/mistral-vibe) - Minimal CLI coding agent by Mistral
 
@@ -95,6 +95,8 @@ Welcome to my GitHub profile!
 - [**FYP_dataset**](https://github.com/hswsp/FYP_dataset)
 - [**GitBook**](https://github.com/hswsp/GitBook)
 - [**GTM**](https://github.com/hswsp/GTM) - Graduate Texts in Mathematics
+- [**logseq**](https://github.com/hswsp/logseq) 🔒 *private* - Logseq sync with Git and GitHub
+- [**SiYuan**](https://github.com/hswsp/SiYuan) 🔒 *private* - 思源个人笔记
 <!-- REPOSITORY-SHOWCASE:END -->
 
 ---
