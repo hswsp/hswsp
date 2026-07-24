@@ -56,26 +56,47 @@ def api_request(url):
         raise
 
 
+def fetch_page(endpoint, page, per_page):
+    """Build URL and fetch a single page of repos."""
+    if endpoint == "user":
+        url = (
+            f"{GITHUB_API}/user/repos?affiliation=owner&per_page={per_page}"
+            f"&page={page}&sort=created&direction=desc"
+        )
+    else:
+        url = (
+            f"{GITHUB_API}/users/{OWNER}/repos?per_page={per_page}"
+            f"&page={page}&sort=created&direction=desc"
+        )
+    return api_request(url)
+
+
 def fetch_all_repos():
     """Fetch all public (and private, if token permits) repos for OWNER."""
     repos = []
     page = 1
     per_page = 100
-    while True:
-        # Use /user/repos when authenticated to include private repos,
-        # otherwise fall back to /users/{owner}/repos for public repos.
-        if get_github_token():
-            url = (
-                f"{GITHUB_API}/user/repos?affiliation=owner&per_page={per_page}"
-                f"&page={page}&sort=created&direction=desc"
-            )
-        else:
-            url = (
-                f"{GITHUB_API}/users/{OWNER}/repos?per_page={per_page}"
-                f"&page={page}&sort=created&direction=desc"
-            )
 
-        data = api_request(url)
+    # Prefer /user/repos to include private repos. If the token lacks permission,
+    # fall back to /users/{owner}/repos (public repos only).
+    endpoint = "user" if get_github_token() else "public"
+
+    while True:
+        try:
+            data = fetch_page(endpoint, page, per_page)
+        except urllib.error.HTTPError as exc:
+            if exc.code == 403 and endpoint == "user":
+                print(
+                    "GH_PAT cannot access /user/repos (missing 'repo' scope or "
+                    "insufficient token permissions). Falling back to public repos only.",
+                    file=sys.stderr,
+                )
+                endpoint = "public"
+                # Retry the same page with the public endpoint.
+                data = fetch_page(endpoint, page, per_page)
+            else:
+                raise
+
         if not data:
             break
         repos.extend(data)
