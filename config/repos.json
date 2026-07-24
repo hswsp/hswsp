@@ -1,0 +1,96 @@
+{
+  "categories": [
+    {
+      "title": "🗄️ 分布式系统 & 存储系统",
+      "repos": [
+        "raft",
+        "ratis",
+        "Intro-Distributed-System",
+        "MIT-6.824",
+        "CMU-15445",
+        "mini-lsm",
+        "rustfs",
+        "tidb",
+        "lance",
+        "lancedb",
+        "DataBase_Project",
+        "SQL-Learn"
+      ]
+    },
+    {
+      "title": "🎨 计算机图形学",
+      "repos": [
+        "CSCI-5611",
+        "CSCI-5607",
+        "CSCI-8980",
+        "raytracer-cpp",
+        "GAMES101",
+        "challenges",
+        "OpenGL"
+      ]
+    },
+    {
+      "title": "🔄 AI Related",
+      "repos": [
+        "open-webui",
+        "AI-Trainer-practices-2026",
+        "andrej-karpathy-skills",
+        "awesome-agent-skills",
+        "claude-code-source-code",
+        "everything-claude-code",
+        "mistral-vibe"
+      ]
+    },
+    {
+      "title": "🧠 机器学习 & 深度学习",
+      "repos": [
+        "Natural-Language-Processing",
+        "DeepLearningImplementations",
+        "eigen_depth",
+        "ssd-spacenet",
+        "Depth-Map-Prediction-from-a-Single-Image-using-a-Multi-Scale-Deep-Network",
+        "HeightEstimation",
+        "Machine-Learning-for-Beginner-by-Python3",
+        "tensorflow",
+        "caffe-utils"
+      ]
+    },
+    {
+      "title": "📚 算法 & 数据结构",
+      "repos": [
+        "CLRS",
+        "ORCA",
+        "Learning-SICP"
+      ]
+    },
+    {
+      "title": "🌐 全栈 & 应用开发",
+      "repos": [
+        "Spring-Tutorial",
+        "wechat-app-zhihudaily",
+        "wechat-weapp-demo",
+        "Software-engineering"
+      ]
+    },
+    {
+      "title": "🍴 Personal Knowledge Base",
+      "repos": [
+        "cs-knowledge-wiki",
+        "blog",
+        "IMAGE_HOST",
+        "blog-jekyll",
+        "Cnblogs-Theme-SimpleMemory",
+        "Book-Resources",
+        "geektime-books",
+        "geektime-rust",
+        "Learning-SICP",
+        "Machine-Learning-for-Beginner-by-Python3"
+      ]
+    }
+  ],
+  "exclude_repos": [
+    "hswsp"
+  ],
+  "show_uncategorized": true,
+  "uncategorized_title": "📦 其他仓库"
+}

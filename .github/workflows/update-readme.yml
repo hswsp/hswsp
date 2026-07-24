@@ -1,0 +1,51 @@
+name: Update README Repository Showcase
+
+on:
+  # Run every day at 00:00 UTC
+  schedule:
+    - cron: '0 0 * * *'
+
+  # Manual trigger from the Actions tab
+  workflow_dispatch:
+
+  # Re-generate when the configuration or script changes
+  push:
+    paths:
+      - 'config/repos.json'
+      - 'scripts/generate_readme.py'
+      - '.github/workflows/update-readme.yml'
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          # Use GH_PAT if available (required for private repos), otherwise GITHUB_TOKEN.
+          token: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Generate README
+        env:
+          GH_PAT: ${{ secrets.GH_PAT || secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_readme.py
+
+      - name: Commit and push changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "docs: auto-update repository showcase"
+          git push
