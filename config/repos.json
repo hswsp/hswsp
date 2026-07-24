@@ -44,6 +44,8 @@
     {
       "title": "🧠 机器学习 & 深度学习",
       "repos": [
+        "aios",
+        "learn-cuda-from-scratch",
         "Natural-Language-Processing",
         "DeepLearningImplementations",
         "eigen_depth",
@@ -52,15 +54,18 @@
         "HeightEstimation",
         "Machine-Learning-for-Beginner-by-Python3",
         "tensorflow",
-        "caffe-utils"
+        "caffe-utils",
+        "HeightEstimation-1"
       ]
     },
     {
-      "title": "📚 算法 & 数据结构",
+      "title": "📚 算法 & 计算机体系结构",
       "repos": [
         "CLRS",
         "ORCA",
-        "Learning-SICP"
+        "Learning-SICP",
+        "minnow",
+        "CSCI8205"
       ]
     },
     {

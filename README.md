@@ -53,6 +53,8 @@ Welcome to my GitHub profile!
 - [**mistral-vibe**](https://github.com/hswsp/mistral-vibe) - Minimal CLI coding agent by Mistral
 
 ### 🧠 机器学习 & 深度学习
+- [**aios**](https://github.com/hswsp/aios) - Build an LLM Inference Engine from Scratch
+- [**learn-cuda-from-scratch**](https://github.com/hswsp/learn-cuda-from-scratch) - 从零开始学 CUDA × LLM 推理: 14 章中文教程 + 可运行 CUDA C++ 代码，从 Hello CUDA 到手写 GPT-2 推理引擎
 - [**Natural-Language-Processing**](https://github.com/hswsp/Natural-Language-Processing) - CS224n
 - [**DeepLearningImplementations**](https://github.com/hswsp/DeepLearningImplementations) - Implementation of recent Deep Learning papers
 - [**eigen_depth**](https://github.com/hswsp/eigen_depth) - Implements "Depth Map Prediction from a Single Image using a Multi-Scale Deep Network" (Eigen et. al., NIPS2014)
@@ -62,11 +64,14 @@ Welcome to my GitHub profile!
 - [**Machine-Learning-for-Beginner-by-Python3**](https://github.com/hswsp/Machine-Learning-for-Beginner-by-Python3) - 为机器学习的入门者提供多种基于实例的sklearn、TensorFlow以及自编函数(AnFany)的ML算法程序。
 - [**tensorflow**](https://github.com/hswsp/tensorflow) - Computation using data flow graphs for scalable machine learning
 - [**caffe-utils**](https://github.com/hswsp/caffe-utils) - Utilities for preparing the data and automating procedures
+- [**HeightEstimation-1**](https://github.com/hswsp/HeightEstimation-1) - The model files of estimatiing height map
 
-### 📚 算法 & 数据结构
+### 📚 算法 & 计算机体系结构
 - [**CLRS**](https://github.com/hswsp/CLRS) - Solutions to Introduction to Algorithms Third Edition
 - [**ORCA**](https://github.com/hswsp/ORCA) - An attempt at a simple implementation of the ORCA algorithm
 - [**Learning-SICP**](https://github.com/hswsp/Learning-SICP) - MIT视频公开课《计算机程序的构造和解释》中文化项目及课程学习资料搜集。
+- [**minnow**](https://github.com/hswsp/minnow)
+- [**CSCI8205**](https://github.com/hswsp/CSCI8205)
 
 ### 🌐 全栈 & 应用开发
 - [**Spring-Tutorial**](https://github.com/hswsp/Spring-Tutorial) - collection of spring tutorials
@@ -87,13 +92,9 @@ Welcome to my GitHub profile!
 - [**Machine-Learning-for-Beginner-by-Python3**](https://github.com/hswsp/Machine-Learning-for-Beginner-by-Python3) - 为机器学习的入门者提供多种基于实例的sklearn、TensorFlow以及自编函数(AnFany)的ML算法程序。
 
 ### 📦 其他仓库
-- [**aios**](https://github.com/hswsp/aios) - Build an LLM Inference Engine from Scratch
-- [**CSCI8205**](https://github.com/hswsp/CSCI8205)
 - [**FYP_dataset**](https://github.com/hswsp/FYP_dataset)
 - [**GitBook**](https://github.com/hswsp/GitBook)
 - [**GTM**](https://github.com/hswsp/GTM) - Graduate Texts in Mathematics
-- [**HeightEstimation-1**](https://github.com/hswsp/HeightEstimation-1) - The model files of estimatiing height map
-- [**learn-cuda-from-scratch**](https://github.com/hswsp/learn-cuda-from-scratch) - 从零开始学 CUDA × LLM 推理: 14 章中文教程 + 可运行 CUDA C++ 代码，从 Hello CUDA 到手写 GPT-2 推理引擎
 <!-- REPOSITORY-SHOWCASE:END -->
 
 ---
