@@ -70,7 +70,7 @@ Welcome to my GitHub profile!
 - [**CLRS**](https://github.com/hswsp/CLRS) - Solutions to Introduction to Algorithms Third Edition
 - [**ORCA**](https://github.com/hswsp/ORCA) - An attempt at a simple implementation of the ORCA algorithm
 - [**Learning-SICP**](https://github.com/hswsp/Learning-SICP) - MIT视频公开课《计算机程序的构造和解释》中文化项目及课程学习资料搜集。
-- [**minnow**](https://github.com/hswsp/minnow)
+- [**minnow**](https://github.com/hswsp/minnow) 🔒 *private* - CS144 lab assignment
 - [**CSCI8205**](https://github.com/hswsp/CSCI8205)
 
 ### 🌐 全栈 & 应用开发
