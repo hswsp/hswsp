@@ -97,6 +97,7 @@ Welcome to my GitHub profile!
 - [**GTM**](https://github.com/hswsp/GTM) - Graduate Texts in Mathematics
 - [**logseq**](https://github.com/hswsp/logseq) 🔒 *private* - Logseq sync with Git and GitHub
 - [**SiYuan**](https://github.com/hswsp/SiYuan) 🔒 *private* - 思源个人笔记
+- [**Stanford-cs149**](https://github.com/hswsp/Stanford-cs149) 🔒 *private* - PARALLEL COMPUTING Assignment
 <!-- REPOSITORY-SHOWCASE:END -->
 
 ---
