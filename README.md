@@ -24,8 +24,8 @@ Welcome to my GitHub profile!
 - [**raft**](https://github.com/hswsp/raft) - Raft library for maintaining a replicated state machine
 - [**ratis**](https://github.com/hswsp/ratis) - Open source Java implementation for Raft consensus protocol.
 - [**Intro-Distributed-System**](https://github.com/hswsp/Intro-Distributed-System)
-- [**MIT-6.824**](https://github.com/hswsp/MIT-6.824) 🔒 *private* - self-learning for MIT 6.824 Distributed Systems
-- [**CMU-15445**](https://github.com/hswsp/CMU-15445) 🔒 *private* - BusTub is a relational database management system built at Carnegie Mellon University for the Introduction to Database Systems (15-445/645) course. This system was developed for educational purposes and should not be used in production environments.
+- [**MIT-6.824**](https://github.com/hswsp/MIT-6.824)
+- [**CMU-15445**](https://github.com/hswsp/CMU-15445)
 - [**mini-lsm**](https://github.com/hswsp/mini-lsm) - A tutorial of building an LSM-Tree storage engine in a week.
 - [**rustfs**](https://github.com/hswsp/rustfs) - 🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.
 - [**tidb**](https://github.com/hswsp/tidb) - TiDB - the open-source, cloud-native, distributed SQL database designed for modern applications.
@@ -33,24 +33,6 @@ Welcome to my GitHub profile!
 - [**lancedb**](https://github.com/hswsp/lancedb) - Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less.
 - [**DataBase_Project**](https://github.com/hswsp/DataBase_Project) - 第一次同步
 - [**SQL-Learn**](https://github.com/hswsp/SQL-Learn)
-
-### 🎨 计算机图形学
-- [**CSCI-5611**](https://github.com/hswsp/CSCI-5611) - Animation
-- [**CSCI-5607**](https://github.com/hswsp/CSCI-5607)
-- [**CSCI-8980**](https://github.com/hswsp/CSCI-8980)
-- [**raytracer-cpp**](https://github.com/hswsp/raytracer-cpp) - A simple ray tracer in C++ based on Peter Shirley's "Ray Tracing in One Weekend".
-- [**GAMES101**](https://github.com/hswsp/GAMES101) - Introduction to Computer Graphics
-- [**challenges**](https://github.com/hswsp/challenges) - graphics programming challenges
-- [**OpenGL**](https://github.com/hswsp/OpenGL) -  A Learning diary of OpenGL in meitu
-
-### 🔄 AI Related
-- [**open-webui**](https://github.com/hswsp/open-webui) - Deploy open-webui with Volcano Engine
-- [**AI-Trainer-practices-2026**](https://github.com/hswsp/AI-Trainer-practices-2026) - 人工智能训练师考试三级
-- [**andrej-karpathy-skills**](https://github.com/hswsp/andrej-karpathy-skills) - A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
-- [**awesome-agent-skills**](https://github.com/hswsp/awesome-agent-skills) - Agent Skills 终极指南：快速入门、推荐技能、最新资讯与实战案例 ｜The Definitive Guide to Agent Skills: Quick Start, Recommended Skills, Latest News, and Practical Case Studies
-- [**claude-code-source-code**](https://github.com/hswsp/claude-code-source-code) 🔒 *private*
-- [**everything-claude-code**](https://github.com/hswsp/everything-claude-code) - Complete Claude Code configuration collection - agents, skills, hooks, commands, rules, MCPs. Battle-tested configs from an Anthropic hackathon winner.
-- [**mistral-vibe**](https://github.com/hswsp/mistral-vibe) - Minimal CLI coding agent by Mistral
 
 ### 🧠 机器学习 & 深度学习
 - [**aios**](https://github.com/hswsp/aios) - Build an LLM Inference Engine from Scratch
@@ -70,8 +52,26 @@ Welcome to my GitHub profile!
 - [**CLRS**](https://github.com/hswsp/CLRS) - Solutions to Introduction to Algorithms Third Edition
 - [**ORCA**](https://github.com/hswsp/ORCA) - An attempt at a simple implementation of the ORCA algorithm
 - [**Learning-SICP**](https://github.com/hswsp/Learning-SICP) - MIT视频公开课《计算机程序的构造和解释》中文化项目及课程学习资料搜集。
-- [**minnow**](https://github.com/hswsp/minnow) 🔒 *private* - CS144 lab assignment
+- [**minnow**](https://github.com/hswsp/minnow)
 - [**CSCI8205**](https://github.com/hswsp/CSCI8205)
+
+### 🎨 计算机图形学
+- [**CSCI-5611**](https://github.com/hswsp/CSCI-5611) - Animation
+- [**CSCI-5607**](https://github.com/hswsp/CSCI-5607)
+- [**CSCI-8980**](https://github.com/hswsp/CSCI-8980)
+- [**raytracer-cpp**](https://github.com/hswsp/raytracer-cpp) - A simple ray tracer in C++ based on Peter Shirley's "Ray Tracing in One Weekend".
+- [**GAMES101**](https://github.com/hswsp/GAMES101) - Introduction to Computer Graphics
+- [**challenges**](https://github.com/hswsp/challenges) - graphics programming challenges
+- [**OpenGL**](https://github.com/hswsp/OpenGL) -  A Learning diary of OpenGL in meitu
+
+### 🔄 AI Related
+- [**open-webui**](https://github.com/hswsp/open-webui) - Deploy open-webui with Volcano Engine
+- [**AI-Trainer-practices-2026**](https://github.com/hswsp/AI-Trainer-practices-2026) - 人工智能训练师考试三级
+- [**andrej-karpathy-skills**](https://github.com/hswsp/andrej-karpathy-skills) - A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.
+- [**awesome-agent-skills**](https://github.com/hswsp/awesome-agent-skills) - Agent Skills 终极指南：快速入门、推荐技能、最新资讯与实战案例 ｜The Definitive Guide to Agent Skills: Quick Start, Recommended Skills, Latest News, and Practical Case Studies
+- [**claude-code-source-code**](https://github.com/hswsp/claude-code-source-code)
+- [**everything-claude-code**](https://github.com/hswsp/everything-claude-code) - Complete Claude Code configuration collection - agents, skills, hooks, commands, rules, MCPs. Battle-tested configs from an Anthropic hackathon winner.
+- [**mistral-vibe**](https://github.com/hswsp/mistral-vibe) - Minimal CLI coding agent by Mistral
 
 ### 🌐 全栈 & 应用开发
 - [**Spring-Tutorial**](https://github.com/hswsp/Spring-Tutorial) - collection of spring tutorials
@@ -95,8 +95,6 @@ Welcome to my GitHub profile!
 - [**FYP_dataset**](https://github.com/hswsp/FYP_dataset)
 - [**GitBook**](https://github.com/hswsp/GitBook)
 - [**GTM**](https://github.com/hswsp/GTM) - Graduate Texts in Mathematics
-- [**logseq**](https://github.com/hswsp/logseq) 🔒 *private* - Logseq sync with Git and GitHub
-- [**SiYuan**](https://github.com/hswsp/SiYuan) 🔒 *private* - 思源个人笔记
 <!-- REPOSITORY-SHOWCASE:END -->
 
 ---

@@ -18,30 +18,6 @@
       ]
     },
     {
-      "title": "🎨 计算机图形学",
-      "repos": [
-        "CSCI-5611",
-        "CSCI-5607",
-        "CSCI-8980",
-        "raytracer-cpp",
-        "GAMES101",
-        "challenges",
-        "OpenGL"
-      ]
-    },
-    {
-      "title": "🔄 AI Related",
-      "repos": [
-        "open-webui",
-        "AI-Trainer-practices-2026",
-        "andrej-karpathy-skills",
-        "awesome-agent-skills",
-        "claude-code-source-code",
-        "everything-claude-code",
-        "mistral-vibe"
-      ]
-    },
-    {
       "title": "🧠 机器学习 & 深度学习",
       "repos": [
         "aios",
@@ -66,6 +42,30 @@
         "Learning-SICP",
         "minnow",
         "CSCI8205"
+      ]
+    },
+    {
+      "title": "🎨 计算机图形学",
+      "repos": [
+        "CSCI-5611",
+        "CSCI-5607",
+        "CSCI-8980",
+        "raytracer-cpp",
+        "GAMES101",
+        "challenges",
+        "OpenGL"
+      ]
+    },
+    {
+      "title": "🔄 AI Related",
+      "repos": [
+        "open-webui",
+        "AI-Trainer-practices-2026",
+        "andrej-karpathy-skills",
+        "awesome-agent-skills",
+        "claude-code-source-code",
+        "everything-claude-code",
+        "mistral-vibe"
       ]
     },
     {
