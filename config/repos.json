@@ -37,6 +37,7 @@
     {
       "title": "📚 算法 & 计算机体系结构",
       "repos": [
+        "Stanford-cs149",
         "CLRS",
         "ORCA",
         "Learning-SICP",
