@@ -93,11 +93,13 @@ Welcome to my GitHub profile!
 - [**Machine-Learning-for-Beginner-by-Python3**](https://github.com/hswsp/Machine-Learning-for-Beginner-by-Python3) - 为机器学习的入门者提供多种基于实例的sklearn、TensorFlow以及自编函数(AnFany)的ML算法程序。
 
 ### 📦 其他仓库
+- [**agentic-ai-guide-zh**](https://github.com/hswsp/agentic-ai-guide-zh) - The Hitchhiker's Guide to Agentic AI: From Foundations to Systems（中文翻译版）
 - [**FYP_dataset**](https://github.com/hswsp/FYP_dataset)
 - [**GitBook**](https://github.com/hswsp/GitBook)
 - [**GTM**](https://github.com/hswsp/GTM) - Graduate Texts in Mathematics
 - [**logseq**](https://github.com/hswsp/logseq) 🔒 *private* - Logseq sync with Git and GitHub
 - [**SiYuan**](https://github.com/hswsp/SiYuan) 🔒 *private* - 思源个人笔记
+- [**system-design-primer**](https://github.com/hswsp/system-design-primer) - Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.
 <!-- REPOSITORY-SHOWCASE:END -->
 
 ---
