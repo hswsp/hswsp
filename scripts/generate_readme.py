@@ -145,6 +145,25 @@ def format_repo(repo_name, repo_map):
     return line + "\n"
 
 
+def sort_by_pushed_at(repo_names, repo_map):
+    """Sort repo names by last push time (pushed_at), most recent first.
+
+    Repos that cannot be found in repo_map (e.g. private without token, or
+    deleted) are placed at the end, preserving their original relative order.
+    """
+    indexed = []
+    tail = []
+    for idx, name in enumerate(repo_names):
+        repo = repo_map.get(name)
+        if repo and repo.get("pushed_at"):
+            indexed.append((repo["pushed_at"], idx, name))
+        else:
+            tail.append((idx, name))
+
+    indexed.sort(key=lambda x: (x[0], x[1]), reverse=True)
+    return [name for _, _, name in indexed] + [name for _, name in tail]
+
+
 def generate_showcase(config, repo_map):
     """Generate markdown for the repository showcase section."""
     lines = []
@@ -156,8 +175,9 @@ def generate_showcase(config, repo_map):
         if not title or not repo_names:
             continue
 
+        ordered = sort_by_pushed_at(repo_names, repo_map)
         lines.append(f"### {title}\n")
-        for repo_name in repo_names:
+        for repo_name in ordered:
             configured.add(repo_name)
             lines.append(format_repo(repo_name, repo_map))
         lines.append("\n")
@@ -174,8 +194,9 @@ def generate_showcase(config, repo_map):
     ]
 
     if show_uncategorized and uncategorized:
+        ordered = sort_by_pushed_at(uncategorized, repo_map)
         lines.append(f"### {uncategorized_title}\n")
-        for name in sorted(uncategorized, key=str.lower):
+        for name in ordered:
             lines.append(format_repo(name, repo_map))
         lines.append("\n")
 

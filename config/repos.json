@@ -75,7 +75,8 @@
         "Spring-Tutorial",
         "wechat-app-zhihudaily",
         "wechat-weapp-demo",
-        "Software-engineering"
+        "Software-engineering",
+        "geektime-rust"
       ]
     },
     {
@@ -88,9 +89,10 @@
         "Cnblogs-Theme-SimpleMemory",
         "Book-Resources",
         "geektime-books",
-        "geektime-rust",
         "Learning-SICP",
-        "Machine-Learning-for-Beginner-by-Python3"
+        "Machine-Learning-for-Beginner-by-Python3",
+        "system-design-primer",
+        "agentic-ai-guide-zh"
       ]
     }
   ],
