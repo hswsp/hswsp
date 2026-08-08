@@ -99,7 +99,7 @@ Welcome to my GitHub profile!
 - [**GTM**](https://github.com/hswsp/GTM) - Graduate Texts in Mathematics
 - [**logseq**](https://github.com/hswsp/logseq) 🔒 *private* - Logseq sync with Git and GitHub
 - [**SiYuan**](https://github.com/hswsp/SiYuan) 🔒 *private* - 思源个人笔记
-- [**system-design-primer**](https://github.com/hswsp/system-design-primer) - Learn how to design large-scale systems. Prep for the system design interview.  Includes Anki flashcards.
+- [**system-design-primer**](https://github.com/hswsp/system-design-primer) - Learn how to design large-scale systems. Prep for the system design interview.
 <!-- REPOSITORY-SHOWCASE:END -->
 
 ---
