@@ -98,6 +98,8 @@ Welcome to my GitHub profile!
 - [**GitBook**](https://github.com/hswsp/GitBook)
 - [**GTM**](https://github.com/hswsp/GTM) - Graduate Texts in Mathematics
 - [**FYP_dataset**](https://github.com/hswsp/FYP_dataset)
+- [**logseq**](https://github.com/hswsp/logseq) 🔒 *private* - Logseq sync with Git and GitHub
+- [**SiYuan**](https://github.com/hswsp/SiYuan) 🔒 *private* - 思源个人笔记
 <!-- REPOSITORY-SHOWCASE:END -->
 
 ---
