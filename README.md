@@ -21,11 +21,11 @@ Welcome to my GitHub profile!
 <!-- REPOSITORY-SHOWCASE:START -->
 
 ### 🗄️ 分布式系统 & 存储系统
+- [**tidb**](https://github.com/hswsp/tidb) - TiDB - the open-source, cloud-native, distributed SQL database designed for modern applications.
 - [**rustfs**](https://github.com/hswsp/rustfs) - 🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.
 - [**lance**](https://github.com/hswsp/lance) - Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming..
 - [**lancedb**](https://github.com/hswsp/lancedb) - Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less.
 - [**ratis**](https://github.com/hswsp/ratis) - Open source Java implementation for Raft consensus protocol.
-- [**tidb**](https://github.com/hswsp/tidb) - TiDB - the open-source, cloud-native, distributed SQL database designed for modern applications.
 - [**raft**](https://github.com/hswsp/raft) - Raft library for maintaining a replicated state machine
 - [**mini-lsm**](https://github.com/hswsp/mini-lsm) - A tutorial of building an LSM-Tree storage engine in a week.
 - [**CMU-15445**](https://github.com/hswsp/CMU-15445) 🔒 *private* - BusTub is a relational database management system built at Carnegie Mellon University for the Introduction to Database Systems (15-445/645) course. This system was developed for educational purposes and should not be used in production environments.
