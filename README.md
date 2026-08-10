@@ -21,8 +21,8 @@ Welcome to my GitHub profile!
 <!-- REPOSITORY-SHOWCASE:START -->
 
 ### 🗄️ 分布式系统 & 存储系统
-- [**tidb**](https://github.com/hswsp/tidb) - TiDB - the open-source, cloud-native, distributed SQL database designed for modern applications.
 - [**rustfs**](https://github.com/hswsp/rustfs) - 🚀2.3x faster than MinIO for 4KB object payloads. RustFS is an open-source, S3-compatible high-performance object storage system supporting migration and coexistence with other S3-compatible platforms such as MinIO and Ceph.
+- [**tidb**](https://github.com/hswsp/tidb) - TiDB - the open-source, cloud-native, distributed SQL database designed for modern applications.
 - [**lance**](https://github.com/hswsp/lance) - Open Lakehouse Format for Multimodal AI. Convert from Parquet in 2 lines of code for 100x faster random access, vector index, and data versioning. Compatible with Pandas, DuckDB, Polars, Pyarrow, and PyTorch with more integrations coming..
 - [**lancedb**](https://github.com/hswsp/lancedb) - Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less.
 - [**ratis**](https://github.com/hswsp/ratis) - Open source Java implementation for Raft consensus protocol.
