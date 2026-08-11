@@ -82,9 +82,9 @@ Welcome to my GitHub profile!
 - [**wechat-weapp-demo**](https://github.com/hswsp/wechat-weapp-demo) - 一个简单的微信小程序购物车DEMO
 
 ### 🍴 Personal Knowledge Base
+- [**system-design-primer**](https://github.com/hswsp/system-design-primer) - Learn how to design large-scale systems. Prep for the system design interview. 
 - [**cs-knowledge-wiki**](https://github.com/hswsp/cs-knowledge-wiki) - Personal Knowledge Base
 - [**agentic-ai-guide-zh**](https://github.com/hswsp/agentic-ai-guide-zh) - The Hitchhiker's Guide to Agentic AI: From Foundations to Systems（中文翻译版）
-- [**system-design-primer**](https://github.com/hswsp/system-design-primer) - Learn how to design large-scale systems. Prep for the system design interview. 
 - [**blog**](https://github.com/hswsp/blog) - Champagne's Hexo Blog
 - [**geektime-books**](https://github.com/hswsp/geektime-books) - :books: 极客时间电子书
 - [**IMAGE_HOST**](https://github.com/hswsp/IMAGE_HOST) - Served as picture host
