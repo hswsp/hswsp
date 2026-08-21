@@ -95,7 +95,7 @@ Welcome to my GitHub profile!
 - [**Machine-Learning-for-Beginner-by-Python3**](https://github.com/hswsp/Machine-Learning-for-Beginner-by-Python3) - 为机器学习的入门者提供多种基于实例的sklearn、TensorFlow以及自编函数(AnFany)的ML算法程序。
 
 ### 📦 其他仓库
-- [**dsh-opencode-sync**](https://github.com/hswsp/dsh-opencode-sync)
+- [**dsh-plugins-gadget**](https://github.com/hswsp/dsh-plugins-gadget)
 - [**SiYuan**](https://github.com/hswsp/SiYuan) 🔒 *private* - 思源个人笔记
 - [**GitBook**](https://github.com/hswsp/GitBook)
 - [**logseq**](https://github.com/hswsp/logseq) 🔒 *private* - Logseq sync with Git and GitHub
