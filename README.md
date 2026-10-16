@@ -97,6 +97,7 @@ Welcome to my GitHub profile!
 ### 📦 其他仓库
 - [**dsh-plugins-gadget**](https://github.com/hswsp/dsh-plugins-gadget) - DeepSeek Harness（DSH）自制插件集合
 - [**SiYuan**](https://github.com/hswsp/SiYuan) 🔒 *private* - 思源个人笔记
+- [**perf-book-cn**](https://github.com/hswsp/perf-book-cn) - https://github.com/dendibakh/perf-book  翻译成中文原始markdown文档
 - [**GitBook**](https://github.com/hswsp/GitBook)
 - [**logseq**](https://github.com/hswsp/logseq) 🔒 *private* - Logseq sync with Git and GitHub
 - [**GTM**](https://github.com/hswsp/GTM) - Graduate Texts in Mathematics
