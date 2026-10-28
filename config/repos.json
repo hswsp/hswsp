@@ -3,6 +3,7 @@
     {
       "title": "🗄️ 分布式系统 & 存储系统",
       "repos": [
+        "mini-lsm",
         "Intro-Distributed-System",
         "CMU-15445",
         "MIT-6.824",
@@ -69,8 +70,7 @@
         "lancedb",
         "ratis",
         "tidb",
-        "raft",
-        "mini-lsm"
+        "raft"
       ]
     },
     {
@@ -133,6 +133,9 @@
         "GTM"
       ]
     }
+  ],
+  "own_repos": [
+    "mini-lsm"
   ],
   "private_repos": [
     "CMU-15445",

@@ -27,7 +27,6 @@ Welcome to my GitHub profile!
 - [**lancedb**](https://github.com/hswsp/lancedb) - Developer-friendly OSS embedded retrieval library for multimodal AI. Search More; Manage Less.
 - [**ratis**](https://github.com/hswsp/ratis) - Open source Java implementation for Raft consensus protocol.
 - [**raft**](https://github.com/hswsp/raft) - Raft library for maintaining a replicated state machine
-- [**mini-lsm**](https://github.com/hswsp/mini-lsm) - A tutorial of building an LSM-Tree storage engine in a week.
 
 ### 🧠 机器学习 & 深度学习
 - [**aios**](https://github.com/hswsp/aios) - Build an LLM Inference Engine from Scratch
@@ -77,6 +76,7 @@ Welcome to my GitHub profile!
 <!-- REPOSITORY-SHOWCASE:START -->
 
 ### 🗄️ 分布式系统 & 存储系统
+- [**mini-lsm**](https://github.com/hswsp/mini-lsm) - A tutorial of building an LSM-Tree storage engine in a week.
 - [**CMU-15445**](https://github.com/hswsp/CMU-15445) 🔒 *private* - BusTub is a relational database management system built at Carnegie Mellon University for the Introduction to Database Systems (15-445/645) course. This system was developed for educational purposes and should not be used in production environments.
 - [**MIT-6.824**](https://github.com/hswsp/MIT-6.824) 🔒 *private* - self-learning for MIT 6.824 Distributed Systems
 - [**SQL-Learn**](https://github.com/hswsp/SQL-Learn)

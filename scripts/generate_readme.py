@@ -10,10 +10,11 @@ README.md holds two generated sections:
     ## 📁 Repository Showcase      <!-- REPOSITORY-SHOWCASE:START/END -->
 
 Which section a repo lands in is decided by GitHub's ``fork`` flag, so forks
-never mix with the repos I authored. Within each category — forked or not —
-entries are ordered by ``pushed_at`` (last push), newest first. Anything
-unconfigured falls back to that section's uncategorized bucket, sorted the same
-way.
+never mix with the repos I authored. ``own_repos`` overrides that flag for forks
+I rewrote into my own project (GitHub cannot detach a fork). Within each
+category — forked or not — entries are ordered by ``pushed_at`` (last push),
+newest first. Anything unconfigured falls back to that section's uncategorized
+bucket, sorted the same way.
 
 Repos missing from the API response (e.g. private repos when no token is
 available) stay in the section where ``config/repos.json`` puts them, and
@@ -153,12 +154,17 @@ def configured_sections(config):
     return mapping
 
 
-def section_of(name, repo_map, sections):
+def section_of(name, repo_map, sections, own_repos):
     """Return the section a repo belongs to.
 
-    The GitHub ``fork`` flag wins for repos we can see; repos absent from the
-    API response keep the section the config lists them under.
+    ``own_repos`` in the config overrides GitHub's flag: a fork that I rewrote
+    into my own thing is presented as mine. Otherwise the ``fork`` flag wins for
+    repos we can see, and repos absent from the API response keep the section
+    the config lists them under.
     """
+    if name in own_repos:
+        return OWNED
+
     repo = repo_map.get(name)
     if repo is not None:
         return FORKED if repo.get("fork") else OWNED
@@ -233,6 +239,7 @@ def generate_showcase(config, repo_map, section):
     """Generate markdown for one showcase section (owned or forked)."""
     category_key, title_key, default_title = SECTION_KEYS[section]
     sections = configured_sections(config)
+    own_repos = set(config.get("own_repos", []))
     lines = []
     configured = set()
 
@@ -245,7 +252,9 @@ def generate_showcase(config, repo_map, section):
         # A repo whose real fork status disagrees with this section is skipped
         # here and picked up by the other section's uncategorized bucket.
         names = [
-            name for name in repo_names if section_of(name, repo_map, sections) == section
+            name
+            for name in repo_names
+            if section_of(name, repo_map, sections, own_repos) == section
         ]
         if not names:
             continue
@@ -264,7 +273,7 @@ def generate_showcase(config, repo_map, section):
     uncategorized = [
         name
         for name in repo_map
-        if section_of(name, repo_map, sections) == section
+        if section_of(name, repo_map, sections, own_repos) == section
         and name not in configured
         and name not in exclude
     ]
@@ -276,7 +285,7 @@ def generate_showcase(config, repo_map, section):
         if name not in repo_map
         and name not in configured
         and name not in exclude
-        and section_of(name, repo_map, sections) == section
+        and section_of(name, repo_map, sections, own_repos) == section
     ]
 
     if show_uncategorized and uncategorized:
