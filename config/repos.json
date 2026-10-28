@@ -3,16 +3,9 @@
     {
       "title": "🗄️ 分布式系统 & 存储系统",
       "repos": [
-        "raft",
-        "ratis",
         "Intro-Distributed-System",
-        "MIT-6.824",
         "CMU-15445",
-        "mini-lsm",
-        "rustfs",
-        "tidb",
-        "lance",
-        "lancedb",
+        "MIT-6.824",
         "DataBase_Project",
         "SQL-Learn"
       ]
@@ -20,27 +13,14 @@
     {
       "title": "🧠 机器学习 & 深度学习",
       "repos": [
-        "aios",
-        "learn-cuda-from-scratch",
         "Natural-Language-Processing",
-        "DeepLearningImplementations",
-        "eigen_depth",
-        "ssd-spacenet",
-        "Depth-Map-Prediction-from-a-Single-Image-using-a-Multi-Scale-Deep-Network",
-        "HeightEstimation",
-        "Machine-Learning-for-Beginner-by-Python3",
-        "tensorflow",
-        "caffe-utils",
-        "HeightEstimation-1"
+        "HeightEstimation"
       ]
     },
     {
       "title": "📚 算法 & 计算机体系结构",
       "repos": [
         "Stanford-cs149",
-        "CLRS",
-        "ORCA",
-        "Learning-SICP",
         "minnow",
         "CSCI8205"
       ]
@@ -48,13 +28,10 @@
     {
       "title": "🎨 计算机图形学",
       "repos": [
+        "GAMES101",
         "CSCI-5611",
         "CSCI-5607",
-        "CSCI-8980",
-        "raytracer-cpp",
-        "GAMES101",
-        "challenges",
-        "OpenGL"
+        "CSCI-8980"
       ]
     },
     {
@@ -62,21 +39,15 @@
       "repos": [
         "open-webui",
         "AI-Trainer-practices-2026",
-        "andrej-karpathy-skills",
-        "awesome-agent-skills",
         "claude-code-source-code",
-        "everything-claude-code",
-        "mistral-vibe"
+        "dsh-plugins-gadget"
       ]
     },
     {
       "title": "🌐 全栈 & 应用开发",
       "repos": [
         "Spring-Tutorial",
-        "wechat-app-zhihudaily",
-        "wechat-weapp-demo",
-        "Software-engineering",
-        "geektime-rust"
+        "Software-engineering"
       ]
     },
     {
@@ -85,20 +56,97 @@
         "cs-knowledge-wiki",
         "blog",
         "IMAGE_HOST",
-        "blog-jekyll",
-        "Cnblogs-Theme-SimpleMemory",
-        "Book-Resources",
-        "geektime-books",
-        "Learning-SICP",
-        "Machine-Learning-for-Beginner-by-Python3",
-        "system-design-primer",
-        "agentic-ai-guide-zh"
+        "Book-Resources"
       ]
     }
+  ],
+  "forked_categories": [
+    {
+      "title": "🗄️ 分布式系统 & 存储系统",
+      "repos": [
+        "rustfs",
+        "lance",
+        "lancedb",
+        "ratis",
+        "tidb",
+        "raft",
+        "mini-lsm"
+      ]
+    },
+    {
+      "title": "🧠 机器学习 & 深度学习",
+      "repos": [
+        "aios",
+        "learn-cuda-from-scratch",
+        "DeepLearningImplementations",
+        "eigen_depth",
+        "ssd-spacenet",
+        "Depth-Map-Prediction-from-a-Single-Image-using-a-Multi-Scale-Deep-Network",
+        "HeightEstimation-1",
+        "Machine-Learning-for-Beginner-by-Python3",
+        "tensorflow",
+        "caffe-utils"
+      ]
+    },
+    {
+      "title": "📚 算法 & 计算机体系结构",
+      "repos": [
+        "CLRS",
+        "ORCA",
+        "Learning-SICP",
+        "perf-book-cn"
+      ]
+    },
+    {
+      "title": "🎨 计算机图形学",
+      "repos": [
+        "challenges",
+        "OpenGL",
+        "raytracer-cpp"
+      ]
+    },
+    {
+      "title": "🔄 AI Related",
+      "repos": [
+        "andrej-karpathy-skills",
+        "awesome-agent-skills",
+        "everything-claude-code",
+        "mistral-vibe"
+      ]
+    },
+    {
+      "title": "🌐 全栈 & 应用开发",
+      "repos": [
+        "geektime-rust",
+        "wechat-app-zhihudaily",
+        "wechat-weapp-demo"
+      ]
+    },
+    {
+      "title": "🍴 Personal Knowledge Base",
+      "repos": [
+        "agentic-ai-guide-zh",
+        "system-design-primer",
+        "geektime-books",
+        "blog-jekyll",
+        "Cnblogs-Theme-SimpleMemory",
+        "GTM"
+      ]
+    }
+  ],
+  "private_repos": [
+    "CMU-15445",
+    "MIT-6.824",
+    "Stanford-cs149",
+    "minnow",
+    "claude-code-source-code",
+    "SiYuan",
+    "logseq"
   ],
   "exclude_repos": [
     "hswsp"
   ],
   "show_uncategorized": true,
-  "uncategorized_title": "📦 其他仓库"
+  "uncategorized_title": "📦 其他仓库",
+  "forked_uncategorized_title": "📦 其他 Fork"
 }
