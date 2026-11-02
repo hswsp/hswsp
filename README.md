@@ -69,6 +69,9 @@ Welcome to my GitHub profile!
 - [**blog-jekyll**](https://github.com/hswsp/blog-jekyll) - Adam Blog is a minimal clear theme for Jekyll
 - [**Cnblogs-Theme-SimpleMemory**](https://github.com/hswsp/Cnblogs-Theme-SimpleMemory) - 🍭　Cnblogs theme _ Basic theme :  SimpleMemory
 - [**GTM**](https://github.com/hswsp/GTM) - Graduate Texts in Mathematics
+
+### 📦 其他 Fork
+- [**cse234-w25-PA**](https://github.com/hswsp/cse234-w25-PA) - Fork for Assignment of CSE 234: Data Systems for Machine Learning
 <!-- FORKED-SHOWCASE:END -->
 
 ## 📁 Repository Showcase
