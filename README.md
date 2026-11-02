@@ -4,7 +4,7 @@ Welcome to my GitHub profile!
 
 ## 📊 GitHub Stats
 
-![hswsp's GitHub stats](https://github-readme-stats.vercel.app/api?username=hswsp&show_icons=true&theme=radical)
+![hswsp's GitHub stats](https://github-profile-summary-cards.vercel.app/api/cards/stats?username=hswsp&theme=radical)
 
 ## 💻 Languages & Tools
 
